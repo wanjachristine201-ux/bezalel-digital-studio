@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bezalel Digital Studio - We design and develop modern, responsive websites and digital solutions that help businesses establish their online presence and connect with their customers.">
-    <meta property="og:title" content="Bezalel Digital Studio | Building Digital Experiences That Help Businesses Grow">
-    <meta property="og:description" content="We design and develop modern, responsive websites and digital solutions for businesses in Kenya and beyond.">
+    <meta name="description" content="Bezalel Digital Studio - Your Business Deserves to Be Seen. We help businesses establish a professional online presence through thoughtful website design and development.">
+    <meta property="og:title" content="Bezalel Digital Studio | Your Business Deserves to Be Seen">
+    <meta property="og:description" content="We help businesses establish a professional online presence through thoughtful website design and development.">
     <meta property="og:type" content="website">
-    <title>Bezalel Digital Studio | Building Digital Experiences That Help Businesses Grow</title>
+    <title>Bezalel Digital Studio | Your Business Deserves to Be Seen</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
-            <a href="#" class="nav-logo">Bezalel Digital Studio</a>
+            <a href="#" class="nav-logo">
+                <img src="assets/logo.svg" alt="Bezalel Digital Studio" class="logo-image">
+            </a>
             <button class="nav-toggle" aria-label="Toggle navigation">
                 <span></span>
                 <span></span>
@@ -34,11 +37,23 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Digital Experiences Built Around Your Business.</h1>
-            <p>We design and develop modern, responsive websites and digital solutions that help businesses establish their online presence and connect with their customers.</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Discuss Your Project</a>
-                <a href="#portfolio" class="btn btn-secondary">Explore Our Work</a>
+            <div class="hero-text">
+                <h1>Your Business Deserves to Be Seen.</h1>
+                <p>We help businesses establish a professional online presence through thoughtful website design and development. From concept to launch, we build websites that work for your business.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Let's Build Your Website</a>
+                    <a href="#portfolio" class="btn btn-secondary">Explore Our Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <svg viewBox="0 0 400 300" class="hero-graphic">
+                    <rect x="50" y="50" width="300" height="200" rx="8" fill="#1A2B4A" stroke="#C6A15B" stroke-width="2"/>
+                    <rect x="70" y="70" width="100" height="60" rx="4" fill="#C6A15B" opacity="0.3"/>
+                    <rect x="190" y="70" width="140" height="20" rx="4" fill="#C6A15B" opacity="0.2"/>
+                    <rect x="190" y="100" width="100" height="20" rx="4" fill="#C6A15B" opacity="0.15"/>
+                    <rect x="70" y="150" width="260" height="80" rx="4" fill="#C6A15B" opacity="0.1"/>
+                    <circle cx="320" cy="80" r="15" fill="#C6A15B" opacity="0.4"/>
+                </svg>
             </div>
         </div>
     </section>
@@ -52,13 +67,13 @@
             </div>
             <div class="about-content">
                 <p>
-                    Bezalel Digital Studio is a digital studio based in Kenya, dedicated to helping businesses establish a professional online presence. We believe every business deserves a website that works as hard as they do.
+                    Every business has something valuable to offer. At Bezalel Digital Studio, we help bring that value online through thoughtful website design and development.
                 </p>
                 <p>
-                    We specialize in website design and development, creating responsive, user-friendly sites that help businesses connect with their customers. Our focus is on delivering practical solutions that meet each project's specific needs.
+                    Based in Kenya, we work to create responsive, user-friendly websites that reflect each business's identity, communicate its services clearly, and make it easier for customers to connect.
                 </p>
                 <p>
-                    Whether you run a hotel, salon, restaurant, shop, or professional service, we're here to help you establish a strong digital presence.
+                    Whether you're running a restaurant, hotel, salon, shop, or professional service, we aim to build a digital presence that serves your business and its customers.
                 </p>
             </div>
         </div>
@@ -81,7 +96,7 @@
                         </svg>
                     </div>
                     <h3>Business Website Development</h3>
-                    <p>Custom websites designed to showcase your business and attract customers. We build sites that work seamlessly across all devices and help you reach your audience effectively.</p>
+                    <p>We build custom websites that showcase your business and make it easy for customers to find you. You receive a responsive site that works on all devices, clear presentation of your services, and contact information that helps customers reach you.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
@@ -91,7 +106,7 @@
                         </svg>
                     </div>
                     <h3>Website Redesign and Improvement</h3>
-                    <p>Transform your existing website into a modern, responsive, and user-friendly experience. We improve performance, accessibility, and design to better serve your customers.</p>
+                    <p>We update your existing website to improve how it looks, performs, and works for your customers. Deliverables include modern design, faster loading times, better mobile experience, and clearer presentation of your business information.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
@@ -101,7 +116,7 @@
                         </svg>
                     </div>
                     <h3>Landing Page Development</h3>
-                    <p>Focused, conversion-optimized landing pages for campaigns, products, or special promotions. We design pages that clearly communicate your message and drive action.</p>
+                    <p>We create focused single-page sites for specific campaigns, product launches, or promotions. You receive a clear message layout, strong calls-to-action, and a page designed to convert visitors into inquiries or customers.</p>
                 </div>
             </div>
         </div>
@@ -117,42 +132,36 @@
             </div>
             <div class="portfolio-grid">
                 <div class="portfolio-item">
-                    <div class="portfolio-placeholder">
-                        <span>Demo Project</span>
-                    </div>
+                    <img src="assets/portfolio-restaurant.jpg" alt="Restaurant interior with modern booth seating and plants" class="portfolio-image">
                     <div class="portfolio-info">
                         <h3>Restaurant Website Concept</h3>
                         <p class="portfolio-purpose"><strong>Purpose:</strong> Demonstration of a responsive restaurant website with menu display, location information, and contact features.</p>
                         <p class="portfolio-problem"><strong>Problem:</strong> Restaurants need an online presence to showcase their menu, location, and allow customers to easily find contact information.</p>
                         <p class="portfolio-solution"><strong>Solution:</strong> A clean, mobile-first website with organized menu sections, clear location details, and prominent contact information.</p>
                         <p class="portfolio-tech"><strong>Technologies:</strong> HTML5, CSS3, Vanilla JavaScript</p>
-                        <span class="portfolio-tag">Demonstration</span>
+                        <span class="portfolio-tag">Design Concept</span>
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <div class="portfolio-placeholder">
-                        <span>Demo Project</span>
-                    </div>
+                    <img src="assets/portfolio-hotel.jpg" alt="Hotel lobby with modern furniture and elegant design" class="portfolio-image">
                     <div class="portfolio-info">
                         <h3>Hotel Website Concept</h3>
                         <p class="portfolio-purpose"><strong>Purpose:</strong> Demonstration of a hotel website featuring room displays, amenities, and booking information.</p>
                         <p class="portfolio-problem"><strong>Problem:</strong> Hotels need to showcase their rooms, amenities, and provide clear booking information to potential guests.</p>
                         <p class="portfolio-solution"><strong>Solution:</strong> A visually appealing layout with room galleries, amenity highlights, and clear calls-to-action for inquiries.</p>
                         <p class="portfolio-tech"><strong>Technologies:</strong> HTML5, CSS3, Vanilla JavaScript</p>
-                        <span class="portfolio-tag">Demonstration</span>
+                        <span class="portfolio-tag">Design Concept</span>
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <div class="portfolio-placeholder">
-                        <span>Demo Project</span>
-                    </div>
+                    <img src="assets/portfolio-office.jpg" alt="Modern office space with seating areas and workstations" class="portfolio-image">
                     <div class="portfolio-info">
                         <h3>Professional Services Concept</h3>
                         <p class="portfolio-purpose"><strong>Purpose:</strong> Demonstration of a professional services website with service descriptions and team introduction.</p>
                         <p class="portfolio-problem"><strong>Problem:</strong> Professional service providers need to establish credibility and clearly communicate their offerings to potential clients.</p>
                         <p class="portfolio-solution"><strong>Solution:</strong> A professional layout with detailed service descriptions, team profiles, and clear contact options for client inquiries.</p>
                         <p class="portfolio-tech"><strong>Technologies:</strong> HTML5, CSS3, Vanilla JavaScript</p>
-                        <span class="portfolio-tag">Demonstration</span>
+                        <span class="portfolio-tag">Design Concept</span>
                     </div>
                 </div>
             </div>
@@ -172,12 +181,12 @@
                 </div>
                 <div class="founder-text">
                     <h3>Christine Wanja</h3>
-                    <p class="founder-title">Web Developer & Software Engineer</p>
+                    <p class="founder-title">Founder | Web Developer & Software Engineer</p>
                     <p>
-                        Christine Wanja is the founder of Bezalel Digital Studio, focused on building thoughtful digital experiences and practical software solutions. Her approach combines problem-solving, purposeful design, and a commitment to delivering work that meets each project's needs.
+                        I founded Bezalel Digital Studio to help businesses establish a meaningful presence online through thoughtful design and practical digital solutions.
                     </p>
                     <p>
-                        With expertise in web development and software engineering, Christine works closely with clients to understand their goals and translate them into effective digital solutions. She believes in clear communication, attention to detail, and continuous learning to deliver quality results.
+                        My approach begins with understanding the problem, listening to the client's needs, and building a solution around the intended purpose. I value clear communication, attention to detail, and continuous improvement throughout the development process.
                     </p>
                 </div>
             </div>
@@ -288,8 +297,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <h3>Bezalel Digital Studio</h3>
-                    <p>Building digital experiences that help businesses grow.</p>
+                    <img src="assets/logo.svg" alt="Bezalel Digital Studio" class="footer-logo">
+                    <p>Your Business Deserves to Be Seen.</p>
                 </div>
                 <div class="footer-nav">
                     <h4>Navigation</h4>

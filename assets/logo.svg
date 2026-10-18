@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <defs>
+    <style>
+      .logo-monogram { fill: #C6A15B; }
+      .logo-text { fill: #101B32; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; }
+    </style>
+  </defs>
+  <!-- B Monogram -->
+  <g transform="translate(0, 5)">
+    <rect x="0" y="0" width="40" height="40" rx="4" fill="#101B32"/>
+    <path class="logo-monogram" d="M12 10 L12 30 L18 30 C22 30 24 28 24 25 C24 22 22 20 18 20 L16 20 L16 10 Z M16 14 L16 18 L18 18 C20 18 21 17 21 16 C21 15 20 14 18 14 Z M16 22 L18 22 C21 22 22 23 22 25 C22 27 21 28 18 28 L16 28 Z"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="50" y="32" font-size="20" class="logo-text">Bezalel</text>
+  <text x="120" y="32" font-size="20" class="logo-text" font-weight="400">Digital Studio</text>
+</svg>
