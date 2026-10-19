@@ -72,8 +72,8 @@ window.addEventListener('scroll', () => {
 // ============================================
 // Configure these values when you have your business contact details
 const CONTACT_CONFIG = {
-    email: 'bezaleldigitalstudios@gmail.com',
-    phone: '+254 183 298 120',
+    email: 'contact@bezaleldigitalstudio.com',
+    phone: '+254110982961',
     formEndpoint: 'https://formspree.io/f/xaeqvkpy'
 };
 

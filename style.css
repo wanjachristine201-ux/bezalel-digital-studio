@@ -529,6 +529,26 @@ body {
     font-style: italic;
 }
 
+.contact-link {
+    color: var(--color-navy);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.contact-link:hover {
+    color: var(--color-gold);
+    text-decoration: underline;
+}
+
+.whatsapp-link {
+    color: #25D366;
+    font-weight: 600;
+}
+
+.whatsapp-link:hover {
+    color: #128C7E;
+}
+
 .contact-cta {
     text-align: center;
 }
