@@ -43,6 +43,7 @@ body {
     color: var(--color-text);
     line-height: 1.6;
     background-color: var(--color-ivory);
+    font-size: 1.05rem;
 }
 
 /* ============================================
@@ -207,7 +208,7 @@ body {
 .hero-buttons {
     display: flex;
     gap: var(--spacing-md);
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
